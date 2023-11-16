@@ -21,5 +21,16 @@ int main()
     std::cout << "\n\n";
 
     std::cout << a << "  " << b << std::endl;
+
+    int array[]{ 1, 2, 3, 4, 5 };
+
+    for (int i(0); i < 5; ++i)
+    {
+        std::cout << array[i] << std::endl;
+    }
+
+
+
+
 }
 
